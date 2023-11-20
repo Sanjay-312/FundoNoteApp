@@ -12,6 +12,14 @@ namespace Repository_Layer.Context
         {
 
         }
-      public  DbSet<UserEntity>UserEntity { get; set; }
+        public  DbSet<UserEntity>UserEntity { get; set; }
+
+        public DbSet<NoteEntity>Note { get; set; }
+
+        public DbSet<LableEntity> Lables { get; set; }
+
+        public DbSet<CollabaratorEntity> Collabarators { get; set; }
+
+
     }
 }
